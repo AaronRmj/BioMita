@@ -12,7 +12,7 @@ class AireProtegeeModel extends Model
     protected $useSoftDeletes   = false;
     protected $useTimestamps    = false;
 
-    protected $allowedFields    = ['nom', 'localisation', 'tarif_ticket', 'tarif_guide'];
+    protected $allowedFields    = ['nom', 'localisation', 'tarif_ticket', 'tarif_guide', 'image'];
 
     protected $validationRules  = [
         'nom'          => 'required|min_length[2]|max_length[150]',

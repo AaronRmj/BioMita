@@ -12,7 +12,7 @@ class EspeceModel extends Model
     protected $useSoftDeletes   = false;
     protected $useTimestamps    = false;
 
-    protected $allowedFields    = ['nom', 'nom_scientifique', 'population'];
+    protected $allowedFields    = ['nom', 'nom_scientifique', 'population', 'image'];
 
     protected $validationRules  = [
         'nom'              => 'required|max_length[150]',
