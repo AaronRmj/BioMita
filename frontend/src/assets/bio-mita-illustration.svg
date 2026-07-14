@@ -1,0 +1,91 @@
+<svg width="600" height="500" viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond doux -->
+  <circle cx="300" cy="250" r="220" fill="#ECFDF5"/>
+
+  <!-- Sol -->
+  <ellipse cx="300" cy="430" rx="230" ry="14" fill="#D1D5DB" opacity="0.4"/>
+
+  <!-- Grand arbre stylisé (gauche) -->
+  <g>
+    <rect x="86" y="230" width="14" height="150" rx="6" fill="#1B4332"/>
+    <circle cx="93" cy="150" r="70" fill="#2D6A4F"/>
+    <circle cx="55" cy="190" r="46" fill="#40916C"/>
+    <circle cx="140" cy="195" r="50" fill="#2D6A4F"/>
+  </g>
+
+  <!-- Feuilles éparses -->
+  <g fill="#40916C">
+    <ellipse cx="470" cy="90" rx="14" ry="8" transform="rotate(30 470 90)"/>
+    <ellipse cx="500" cy="130" rx="12" ry="7" transform="rotate(-20 500 130)"/>
+    <ellipse cx="120" cy="60" rx="12" ry="7" transform="rotate(50 120 60)"/>
+  </g>
+
+  <!-- Écran affichant les données de biodiversité -->
+  <g>
+    <rect x="230" y="150" width="220" height="160" rx="10" fill="#0A0A0A"/>
+    <rect x="244" y="164" width="192" height="118" rx="4" fill="#FFFFFF"/>
+
+    <!-- Icône feuille au centre de l'écran -->
+    <g transform="translate(300,185)">
+      <circle cx="30" cy="30" r="34" fill="#D8F3DC"/>
+      <path d="M30 8 C50 8 58 26 50 44 C42 62 20 62 12 44 C4 26 12 8 30 8 Z" fill="#1B4332"/>
+      <path d="M30 14 L30 54" stroke="#D8F3DC" stroke-width="2"/>
+    </g>
+
+    <!-- Lignes de texte -->
+    <rect x="256" y="240" width="120" height="6" rx="3" fill="#A8A29E"/>
+    <rect x="256" y="254" width="90" height="6" rx="3" fill="#D6D3D1"/>
+    <rect x="256" y="268" width="105" height="6" rx="3" fill="#D6D3D1"/>
+
+    <!-- Pied de l'écran -->
+    <rect x="322" y="310" width="16" height="26" fill="#0A0A0A"/>
+    <rect x="290" y="336" width="80" height="10" rx="4" fill="#0A0A0A"/>
+  </g>
+
+  <!-- Petit graphique flottant (tendance observations) -->
+  <g>
+    <rect x="380" y="90" width="150" height="90" rx="10" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+    <polyline points="396,150 420,130 444,140 468,110 492,120 512,100"
+      fill="none" stroke="#1B4332" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="396" cy="150" r="4" fill="#2D6A4F"/>
+    <circle cx="420" cy="130" r="4" fill="#2D6A4F"/>
+    <circle cx="444" cy="140" r="4" fill="#2D6A4F"/>
+    <circle cx="468" cy="110" r="4" fill="#2D6A4F"/>
+    <circle cx="492" cy="120" r="4" fill="#2D6A4F"/>
+    <circle cx="512" cy="100" r="4" fill="#1B4332"/>
+  </g>
+
+  <!-- Agent de terrain, vu de dos, observant l'écran -->
+  <g>
+    <!-- tête -->
+    <circle cx="470" cy="230" r="34" fill="#111111"/>
+    <path d="M436 230 a34 34 0 0 1 68 0 v10 h-68 z" fill="#0A0A0A"/>
+    <!-- corps / uniforme vert -->
+    <path d="M418 300 C418 260 448 258 470 258 C494 258 522 262 524 305 L534 400 C534 415 520 420 505 420 L432 420 C418 420 408 412 410 398 Z" fill="#2D6A4F"/>
+    <!-- manche relevée -->
+    <path d="M520 300 L548 340 C552 350 546 360 536 358 L512 335 Z" fill="#2D6A4F"/>
+    <circle cx="536" cy="352" r="12" fill="#D8F3DC"/>
+    <!-- bras pointant vers l'écran -->
+    <path d="M420 305 C400 300 385 292 372 284" stroke="#2D6A4F" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="368" cy="282" r="11" fill="#D8F3DC"/>
+  </g>
+
+  <!-- Empreinte animale (élément terrain) -->
+  <g fill="#1B4332" opacity="0.85">
+    <ellipse cx="170" cy="360" rx="10" ry="14"/>
+    <ellipse cx="150" cy="345" rx="5" ry="7"/>
+    <ellipse cx="165" cy="336" rx="5" ry="7"/>
+    <ellipse cx="182" cy="338" rx="5" ry="7"/>
+    <ellipse cx="196" cy="348" rx="5" ry="7"/>
+  </g>
+
+  <!-- Petit socle serveur / boîtier de collecte de données (bas gauche) -->
+  <g>
+    <rect x="40" y="330" width="70" height="80" rx="6" fill="#111111"/>
+    <rect x="50" y="342" width="50" height="10" rx="2" fill="#40916C"/>
+    <rect x="50" y="360" width="50" height="10" rx="2" fill="#2D6A4F"/>
+    <rect x="50" y="378" width="50" height="10" rx="2" fill="#40916C"/>
+    <circle cx="94" cy="347" r="2.5" fill="#D8F3DC"/>
+    <circle cx="94" cy="365" r="2.5" fill="#D8F3DC"/>
+  </g>
+</svg>
