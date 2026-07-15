@@ -1,10 +1,10 @@
 import './App.css'
-import Layout from './layouts/layout'
+import AdminLayout from './pages/admin/adminLayout'
 function App() {
 
   return (
     <div>
-      <Layout />
+      <AdminLayout />
     </div>
   )
 }
